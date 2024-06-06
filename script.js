@@ -18,13 +18,13 @@ let listLenght = list.lenght;
 
 const generateTempalate = (todo) => {
   const html = `<li>
-                  <input type="checkbox" id="todo_${listLenght}">
-                  <label for="todo_${listLenght}">
-                    <span class="check"></span>
-                    ${todo}
-                  </label>
-                  <i class="far fa-trash-alt delete"></i>
-                </li>`;
+    <input type="checkbox" id="todo_${listLenght}">
+      <label for="todo_${listLenght}">
+        <span class="check"></span>
+        ${todo}
+      </label>
+      <i class="far fa-trash-alt delete"></i>
+    </li>`;
   todoList.innerHTML += html;
 };
 
